@@ -47,7 +47,7 @@ let mort = new Character('Mort', 'Red Heeler', 'male', 'unknown', 'Episode: Gran
 let characters = {bluey, bingo, bandit, chilli, muffin, jack, rusty, lucky, mackenzie, indy, honey, coco, snickers, chloe, judo, jeanluc, theTerriers, socks, missy, buddy, calypso, winton, uncleStripe, auntTrixie, bently, nana, grandad, mort}
 
 app.get('/', (req,res) => {
-    res.send("<h1>Welcome to the Bluey API</h1><h3>Please use [insertURL] to access API data</h3>")
+    res.send("<h1>Welcome to the Bluey API</h1><h3>Please use https://bluey-api.herokuapp.com/ to access API data</h3>")
 })
 
 app.get('/api/characters', (req,res) => {
